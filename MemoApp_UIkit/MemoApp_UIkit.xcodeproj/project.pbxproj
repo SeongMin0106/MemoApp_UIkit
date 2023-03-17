@@ -7,110 +7,116 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AD56DB4329C1C2E8007FDB52 /* MemoListCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD56DB4229C1C2E8007FDB52 /* MemoListCollectionViewCell.swift */; };
-		AD56DB4429C1C839007FDB52 /* HomeView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD56DB4029C1A3B3007FDB52 /* HomeView.storyboard */; };
-		ADD2E64129C19E1000B24483 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD2E64029C19E1000B24483 /* AppDelegate.swift */; };
-		ADD2E64329C19E1000B24483 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD2E64229C19E1000B24483 /* SceneDelegate.swift */; };
-		ADD2E64A29C19E1100B24483 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADD2E64929C19E1100B24483 /* Assets.xcassets */; };
-		ADD2E64D29C19E1100B24483 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADD2E64B29C19E1100B24483 /* LaunchScreen.storyboard */; };
-		ADD2E65629C19E7300B24483 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = ADD2E65529C19E7300B24483 /* Realm */; };
-		ADD2E65829C19E7300B24483 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = ADD2E65729C19E7300B24483 /* RealmSwift */; };
-		ADD2E65D29C19F4700B24483 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD2E65C29C19F4700B24483 /* HomeViewController.swift */; };
-		ADD2E66029C19F9000B24483 /* Memo.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD2E65F29C19F9000B24483 /* Memo.swift */; };
+		AD3555A329C37E64000A010A /* EditMemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3555A229C37E64000A010A /* EditMemoViewController.swift */; };
+		AD66CA7129C370F00075B8BA /* MemoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD66CA7029C370F00075B8BA /* MemoViewModel.swift */; };
+		AD7E81B829C363D500518BF5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7E81B729C363D500518BF5 /* AppDelegate.swift */; };
+		AD7E81BA29C363D500518BF5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7E81B929C363D500518BF5 /* SceneDelegate.swift */; };
+		AD7E81BC29C363D500518BF5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7E81BB29C363D500518BF5 /* ViewController.swift */; };
+		AD7E81BF29C363D500518BF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD7E81BD29C363D500518BF5 /* Main.storyboard */; };
+		AD7E81C129C363D600518BF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD7E81C029C363D600518BF5 /* Assets.xcassets */; };
+		AD7E81C429C363D600518BF5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD7E81C229C363D600518BF5 /* LaunchScreen.storyboard */; };
+		AD7E81CD29C363E700518BF5 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = AD7E81CC29C363E700518BF5 /* Realm */; };
+		AD7E81CF29C363E700518BF5 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = AD7E81CE29C363E700518BF5 /* RealmSwift */; };
+		AD7E81D429C3678F00518BF5 /* Memo.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7E81D329C3678F00518BF5 /* Memo.swift */; };
+		AD7E81D829C36AE100518BF5 /* AddMemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7E81D729C36AE100518BF5 /* AddMemoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		AD56DB4029C1A3B3007FDB52 /* HomeView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HomeView.storyboard; sourceTree = "<group>"; };
-		AD56DB4229C1C2E8007FDB52 /* MemoListCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoListCollectionViewCell.swift; sourceTree = "<group>"; };
-		ADD2E63D29C19E1000B24483 /* MemoApp_UIkit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MemoApp_UIkit.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		ADD2E64029C19E1000B24483 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		ADD2E64229C19E1000B24483 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		ADD2E64929C19E1100B24483 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		ADD2E64C29C19E1100B24483 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		ADD2E64E29C19E1100B24483 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		ADD2E65C29C19F4700B24483 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
-		ADD2E65F29C19F9000B24483 /* Memo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Memo.swift; sourceTree = "<group>"; };
+		AD3555A229C37E64000A010A /* EditMemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditMemoViewController.swift; sourceTree = "<group>"; };
+		AD66CA7029C370F00075B8BA /* MemoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoViewModel.swift; sourceTree = "<group>"; };
+		AD7E81B429C363D500518BF5 /* MemoApp_UIkit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MemoApp_UIkit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD7E81B729C363D500518BF5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AD7E81B929C363D500518BF5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AD7E81BB29C363D500518BF5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AD7E81BE29C363D500518BF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AD7E81C029C363D600518BF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AD7E81C329C363D600518BF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AD7E81C529C363D600518BF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD7E81D329C3678F00518BF5 /* Memo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Memo.swift; sourceTree = "<group>"; };
+		AD7E81D729C36AE100518BF5 /* AddMemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMemoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		ADD2E63A29C19E1000B24483 /* Frameworks */ = {
+		AD7E81B129C363D500518BF5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ADD2E65829C19E7300B24483 /* RealmSwift in Frameworks */,
-				ADD2E65629C19E7300B24483 /* Realm in Frameworks */,
+				AD7E81CF29C363E700518BF5 /* RealmSwift in Frameworks */,
+				AD7E81CD29C363E700518BF5 /* Realm in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		ADD2E63429C19E1000B24483 = {
+		AD7E81AB29C363D500518BF5 = {
 			isa = PBXGroup;
 			children = (
-				ADD2E63F29C19E1000B24483 /* MemoApp_UIkit */,
-				ADD2E63E29C19E1000B24483 /* Products */,
+				AD7E81B629C363D500518BF5 /* MemoApp_UIkit */,
+				AD7E81B529C363D500518BF5 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		ADD2E63E29C19E1000B24483 /* Products */ = {
+		AD7E81B529C363D500518BF5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				ADD2E63D29C19E1000B24483 /* MemoApp_UIkit.app */,
+				AD7E81B429C363D500518BF5 /* MemoApp_UIkit.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		ADD2E63F29C19E1000B24483 /* MemoApp_UIkit */ = {
+		AD7E81B629C363D500518BF5 /* MemoApp_UIkit */ = {
 			isa = PBXGroup;
 			children = (
-				ADD2E64029C19E1000B24483 /* AppDelegate.swift */,
-				ADD2E64229C19E1000B24483 /* SceneDelegate.swift */,
-				ADD2E65B29C19EE600B24483 /* Views */,
-				ADD2E66129C1A09A00B24483 /* ViewControllers */,
-				ADD2E65E29C19F7900B24483 /* Model */,
-				ADD2E64929C19E1100B24483 /* Assets.xcassets */,
-				ADD2E64B29C19E1100B24483 /* LaunchScreen.storyboard */,
-				ADD2E64E29C19E1100B24483 /* Info.plist */,
+				AD7E81B729C363D500518BF5 /* AppDelegate.swift */,
+				AD7E81B929C363D500518BF5 /* SceneDelegate.swift */,
+				AD7E81D229C3645D00518BF5 /* Model */,
+				AD7E81D129C3645500518BF5 /* ViewModel */,
+				AD7E81D029C3644000518BF5 /* View */,
+				AD7E81BD29C363D500518BF5 /* Main.storyboard */,
+				AD7E81C029C363D600518BF5 /* Assets.xcassets */,
+				AD7E81C229C363D600518BF5 /* LaunchScreen.storyboard */,
+				AD7E81C529C363D600518BF5 /* Info.plist */,
 			);
 			path = MemoApp_UIkit;
 			sourceTree = "<group>";
 		};
-		ADD2E65B29C19EE600B24483 /* Views */ = {
+		AD7E81D029C3644000518BF5 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				AD56DB4029C1A3B3007FDB52 /* HomeView.storyboard */,
+				AD7E81BB29C363D500518BF5 /* ViewController.swift */,
+				AD7E81D729C36AE100518BF5 /* AddMemoViewController.swift */,
+				AD3555A229C37E64000A010A /* EditMemoViewController.swift */,
 			);
-			path = Views;
+			path = View;
 			sourceTree = "<group>";
 		};
-		ADD2E65E29C19F7900B24483 /* Model */ = {
+		AD7E81D129C3645500518BF5 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				ADD2E65F29C19F9000B24483 /* Memo.swift */,
+				AD66CA7029C370F00075B8BA /* MemoViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		AD7E81D229C3645D00518BF5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AD7E81D329C3678F00518BF5 /* Memo.swift */,
 			);
 			path = Model;
-			sourceTree = "<group>";
-		};
-		ADD2E66129C1A09A00B24483 /* ViewControllers */ = {
-			isa = PBXGroup;
-			children = (
-				ADD2E65C29C19F4700B24483 /* HomeViewController.swift */,
-				AD56DB4229C1C2E8007FDB52 /* MemoListCollectionViewCell.swift */,
-			);
-			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		ADD2E63C29C19E1000B24483 /* MemoApp_UIkit */ = {
+		AD7E81B329C363D500518BF5 /* MemoApp_UIkit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ADD2E65129C19E1100B24483 /* Build configuration list for PBXNativeTarget "MemoApp_UIkit" */;
+			buildConfigurationList = AD7E81C829C363D600518BF5 /* Build configuration list for PBXNativeTarget "MemoApp_UIkit" */;
 			buildPhases = (
-				ADD2E63929C19E1000B24483 /* Sources */,
-				ADD2E63A29C19E1000B24483 /* Frameworks */,
-				ADD2E63B29C19E1000B24483 /* Resources */,
+				AD7E81B029C363D500518BF5 /* Sources */,
+				AD7E81B129C363D500518BF5 /* Frameworks */,
+				AD7E81B229C363D500518BF5 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -118,29 +124,29 @@
 			);
 			name = MemoApp_UIkit;
 			packageProductDependencies = (
-				ADD2E65529C19E7300B24483 /* Realm */,
-				ADD2E65729C19E7300B24483 /* RealmSwift */,
+				AD7E81CC29C363E700518BF5 /* Realm */,
+				AD7E81CE29C363E700518BF5 /* RealmSwift */,
 			);
 			productName = MemoApp_UIkit;
-			productReference = ADD2E63D29C19E1000B24483 /* MemoApp_UIkit.app */;
+			productReference = AD7E81B429C363D500518BF5 /* MemoApp_UIkit.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		ADD2E63529C19E1000B24483 /* Project object */ = {
+		AD7E81AC29C363D500518BF5 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1420;
 				LastUpgradeCheck = 1420;
 				TargetAttributes = {
-					ADD2E63C29C19E1000B24483 = {
+					AD7E81B329C363D500518BF5 = {
 						CreatedOnToolsVersion = 14.2;
 					};
 				};
 			};
-			buildConfigurationList = ADD2E63829C19E1000B24483 /* Build configuration list for PBXProject "MemoApp_UIkit" */;
+			buildConfigurationList = AD7E81AF29C363D500518BF5 /* Build configuration list for PBXProject "MemoApp_UIkit" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -148,52 +154,62 @@
 				en,
 				Base,
 			);
-			mainGroup = ADD2E63429C19E1000B24483;
+			mainGroup = AD7E81AB29C363D500518BF5;
 			packageReferences = (
-				ADD2E65429C19E7300B24483 /* XCRemoteSwiftPackageReference "realm-swift" */,
+				AD7E81CB29C363E700518BF5 /* XCRemoteSwiftPackageReference "realm-swift" */,
 			);
-			productRefGroup = ADD2E63E29C19E1000B24483 /* Products */;
+			productRefGroup = AD7E81B529C363D500518BF5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				ADD2E63C29C19E1000B24483 /* MemoApp_UIkit */,
+				AD7E81B329C363D500518BF5 /* MemoApp_UIkit */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		ADD2E63B29C19E1000B24483 /* Resources */ = {
+		AD7E81B229C363D500518BF5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AD56DB4429C1C839007FDB52 /* HomeView.storyboard in Resources */,
-				ADD2E64D29C19E1100B24483 /* LaunchScreen.storyboard in Resources */,
-				ADD2E64A29C19E1100B24483 /* Assets.xcassets in Resources */,
+				AD7E81C429C363D600518BF5 /* LaunchScreen.storyboard in Resources */,
+				AD7E81C129C363D600518BF5 /* Assets.xcassets in Resources */,
+				AD7E81BF29C363D500518BF5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		ADD2E63929C19E1000B24483 /* Sources */ = {
+		AD7E81B029C363D500518BF5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ADD2E64129C19E1000B24483 /* AppDelegate.swift in Sources */,
-				ADD2E64329C19E1000B24483 /* SceneDelegate.swift in Sources */,
-				ADD2E65D29C19F4700B24483 /* HomeViewController.swift in Sources */,
-				AD56DB4329C1C2E8007FDB52 /* MemoListCollectionViewCell.swift in Sources */,
-				ADD2E66029C19F9000B24483 /* Memo.swift in Sources */,
+				AD66CA7129C370F00075B8BA /* MemoViewModel.swift in Sources */,
+				AD3555A329C37E64000A010A /* EditMemoViewController.swift in Sources */,
+				AD7E81BC29C363D500518BF5 /* ViewController.swift in Sources */,
+				AD7E81D829C36AE100518BF5 /* AddMemoViewController.swift in Sources */,
+				AD7E81B829C363D500518BF5 /* AppDelegate.swift in Sources */,
+				AD7E81BA29C363D500518BF5 /* SceneDelegate.swift in Sources */,
+				AD7E81D429C3678F00518BF5 /* Memo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		ADD2E64B29C19E1100B24483 /* LaunchScreen.storyboard */ = {
+		AD7E81BD29C363D500518BF5 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				ADD2E64C29C19E1100B24483 /* Base */,
+				AD7E81BE29C363D500518BF5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AD7E81C229C363D600518BF5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD7E81C329C363D600518BF5 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -201,7 +217,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		ADD2E64F29C19E1100B24483 /* Debug */ = {
+		AD7E81C629C363D600518BF5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -261,7 +277,7 @@
 			};
 			name = Debug;
 		};
-		ADD2E65029C19E1100B24483 /* Release */ = {
+		AD7E81C729C363D600518BF5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -315,7 +331,7 @@
 			};
 			name = Release;
 		};
-		ADD2E65229C19E1100B24483 /* Debug */ = {
+		AD7E81C929C363D600518BF5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -326,8 +342,7 @@
 				INFOPLIST_FILE = MemoApp_UIkit/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = HomeView;
-				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -343,7 +358,7 @@
 			};
 			name = Debug;
 		};
-		ADD2E65329C19E1100B24483 /* Release */ = {
+		AD7E81CA29C363D600518BF5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -354,8 +369,7 @@
 				INFOPLIST_FILE = MemoApp_UIkit/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = HomeView;
-				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -374,20 +388,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		ADD2E63829C19E1000B24483 /* Build configuration list for PBXProject "MemoApp_UIkit" */ = {
+		AD7E81AF29C363D500518BF5 /* Build configuration list for PBXProject "MemoApp_UIkit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				ADD2E64F29C19E1100B24483 /* Debug */,
-				ADD2E65029C19E1100B24483 /* Release */,
+				AD7E81C629C363D600518BF5 /* Debug */,
+				AD7E81C729C363D600518BF5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		ADD2E65129C19E1100B24483 /* Build configuration list for PBXNativeTarget "MemoApp_UIkit" */ = {
+		AD7E81C829C363D600518BF5 /* Build configuration list for PBXNativeTarget "MemoApp_UIkit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				ADD2E65229C19E1100B24483 /* Debug */,
-				ADD2E65329C19E1100B24483 /* Release */,
+				AD7E81C929C363D600518BF5 /* Debug */,
+				AD7E81CA29C363D600518BF5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -395,7 +409,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		ADD2E65429C19E7300B24483 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+		AD7E81CB29C363E700518BF5 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/realm/realm-swift";
 			requirement = {
@@ -406,17 +420,17 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		ADD2E65529C19E7300B24483 /* Realm */ = {
+		AD7E81CC29C363E700518BF5 /* Realm */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = ADD2E65429C19E7300B24483 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			package = AD7E81CB29C363E700518BF5 /* XCRemoteSwiftPackageReference "realm-swift" */;
 			productName = Realm;
 		};
-		ADD2E65729C19E7300B24483 /* RealmSwift */ = {
+		AD7E81CE29C363E700518BF5 /* RealmSwift */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = ADD2E65429C19E7300B24483 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			package = AD7E81CB29C363E700518BF5 /* XCRemoteSwiftPackageReference "realm-swift" */;
 			productName = RealmSwift;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
-	rootObject = ADD2E63529C19E1000B24483 /* Project object */;
+	rootObject = AD7E81AC29C363D500518BF5 /* Project object */;
 }
